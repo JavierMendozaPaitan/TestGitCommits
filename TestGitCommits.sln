@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30524.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGitCommits", "TestGitCommits\TestGitCommits.csproj", "{09B02B27-072E-4954-8204-3992A26AD953}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGitCommits", "TestGitCommits\TestGitCommits.csproj", "{09B02B27-072E-4954-8204-3992A26AD953}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAppDomBase", "..\PokService\WAppDomBase\WAppDomBase.csproj", "{A8F96821-90EB-45C6-985C-8DDDE72545A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAppDom", "..\PokService\WAppDom\WAppDom.csproj", "{A82D3FE7-4B32-4B87-838A-04CB1EDD91DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGitDomBase", "TestGitDomBase\TestGitDomBase.csproj", "{90D44410-61BE-452E-BE2A-21E16AFAEAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGitDom", "TestGitDom\TestGitDom.csproj", "{380FFF3D-919D-4F51-A7D0-FD69B281EB7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{09B02B27-072E-4954-8204-3992A26AD953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09B02B27-072E-4954-8204-3992A26AD953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09B02B27-072E-4954-8204-3992A26AD953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F96821-90EB-45C6-985C-8DDDE72545A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F96821-90EB-45C6-985C-8DDDE72545A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F96821-90EB-45C6-985C-8DDDE72545A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F96821-90EB-45C6-985C-8DDDE72545A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82D3FE7-4B32-4B87-838A-04CB1EDD91DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82D3FE7-4B32-4B87-838A-04CB1EDD91DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82D3FE7-4B32-4B87-838A-04CB1EDD91DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82D3FE7-4B32-4B87-838A-04CB1EDD91DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D44410-61BE-452E-BE2A-21E16AFAEAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D44410-61BE-452E-BE2A-21E16AFAEAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D44410-61BE-452E-BE2A-21E16AFAEAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D44410-61BE-452E-BE2A-21E16AFAEAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380FFF3D-919D-4F51-A7D0-FD69B281EB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380FFF3D-919D-4F51-A7D0-FD69B281EB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380FFF3D-919D-4F51-A7D0-FD69B281EB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380FFF3D-919D-4F51-A7D0-FD69B281EB7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
