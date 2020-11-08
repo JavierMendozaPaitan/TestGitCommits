@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Bases\" />
-    <Folder Include="Models\" />
     <Folder Include="Reports\" />
   </ItemGroup>
 
