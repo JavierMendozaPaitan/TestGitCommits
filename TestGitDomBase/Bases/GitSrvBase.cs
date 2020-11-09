@@ -11,6 +11,6 @@ namespace TestGitDomBase.Bases
 {
     public abstract class GitSrvBase : IGitSrv
     {
-        public abstract Func<string, Task<RepoCommit>> ShowHist { get; }
+        public abstract Func<string, Task<List<CommitDat>>> ShowHist { get; }
     }
 }

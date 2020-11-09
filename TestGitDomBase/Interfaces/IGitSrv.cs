@@ -9,6 +9,6 @@ namespace TestGitDomBase.Interfaces
 {
     public interface IGitSrv
     {
-        Func<string, Task<RepoCommit>> ShowHist { get; }
+        Func<string, Task<List<CommitDat>>> ShowHist { get; }
     }
 }

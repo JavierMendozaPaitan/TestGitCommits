@@ -10,7 +10,7 @@ namespace TestGitDomBase.Models.GitCommit
     public class Usr
     {
         public string Login { get; set; }
-        public string Id { get; set; }
+        public int Id { get; set; }
         [BsonElement("node_id")]
         public string NodeId { get; set; }
         [BsonElement("avatar_url")]

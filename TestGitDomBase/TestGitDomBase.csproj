@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Reports\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\PokService\WAppDomBase\WAppDomBase.csproj" />
   </ItemGroup>
 

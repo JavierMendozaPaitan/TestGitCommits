@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using TestGitDom.Items;
+using TestGitDom.Services;
 using TestGitDomBase.Interfaces;
 
 namespace TestGitCommits
@@ -24,6 +25,7 @@ namespace TestGitCommits
         {
 
             services.AddControllersWithViews();
+            services.AddHttpClient();
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -32,6 +34,7 @@ namespace TestGitCommits
             });
 
             services.AddSingleton<IGitParm, GitParm>();
+            services.AddSingleton<IGitSrv, GitSrv>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

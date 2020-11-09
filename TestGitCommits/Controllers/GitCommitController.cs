@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using TestGitDomBase.Interfaces;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace TestGitCommits.Controllers
 {
@@ -23,15 +22,13 @@ namespace TestGitCommits.Controllers
         private readonly ILogger<GitCommitController> logg;
         private readonly IGitSrv gsrv;
 
-        // GET: api/<GitCommitController>
         [HttpGet("/Welcome")]
         public string Welcome()
         {
             return "Welcome GitCommit";
         }
 
-        // GET api/<GitCommitController>/5
-        [HttpGet("{repo}")]
+        [HttpGet]
         public async Task<IActionResult> Get(string repo)
         {
             try
