@@ -29,8 +29,8 @@ export class Home extends Component {
             <div>
                 <h1 id="tabelLabel" >Git Commit History</h1>
                 <p>This is the PokService Project Git Commit History</p>
-                <table className='table table-striped' aria-labelledby="tabelLabel">
-                    <thead>
+                <table className='table table-striped table-hover' aria-labelledby="tabelLabel">
+                    <thead className='thead-dark'>
                         <tr>
                             <th>Author</th>
                             <th>Committer</th>
