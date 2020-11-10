@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TestGitDomBase\TestGitDomBase.csproj" />
+    <ProjectReference Include="..\WAppDom\WAppDom.csproj" />
   </ItemGroup>
 
 </Project>
