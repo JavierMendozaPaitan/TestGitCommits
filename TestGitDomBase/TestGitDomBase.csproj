@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WAppDomBase\WAppDomBase.csproj" />
+    <ProjectReference Include="..\..\WppRootLib\WppDomBase\WppDomBase.csproj" />
   </ItemGroup>
 
 </Project>
