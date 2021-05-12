@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using TestGitDomBase.Config.Git;
 using TestGitDomBase.Interfaces;
-using WppDom.Services;
+using WAppDom.Services;
 
 namespace TestGitDom.Items
 {

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using TestGitDomBase.Bases;
 using TestGitDomBase.Interfaces;
 using TestGitDomBase.Models.GitCommit;
-using WppDom.Actions;
+using WAppDom.Actions;
 
 namespace TestGitDom.Services
 {
